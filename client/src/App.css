@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Container */
+.container {
+  display: flex;
+  justify-content: center; /* Center the card horizontally */
+  align-items: center; /* Center the card vertically */
+  height: 100vh; /* Ensure the container fills the entire viewport */
+  background-image: url('https://www.xmcrm.org/SelfServiceCenteren/images/bg_login.jpg');
+}
+
+/* Card */
+.card {
+  background-color: #fff; /* White background for the card */
+  padding: 20px; /* Add some padding for aesthetics */
+  border-radius: 5px; /* Rounded corners for the card */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 40vw; /* Adjust width as needed */
+  height: 80vh; /* Adjust width as needed */
+  overflow: auto;
+  /* text-align: center; */
+
+}
+
