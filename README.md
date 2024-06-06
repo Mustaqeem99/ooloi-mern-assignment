@@ -43,15 +43,32 @@ This will start the server and make the API endpoint (`/getComponentsForReact`) 
 
 **React Frontend:**
 
-**Important Note:** Due to `oolib`'s compatibility with React version 17 only, ensure your React installation reflects this.
+**Important Note:**
 
+* The `oolib` library currently only works with React version 17. 
+* **However, in this case, we'll be using a local Node.js version below 17.** For this project, you can use the version i have installed (`node -v 16.17.1`).
+
+**While it's generally recommended to keep Node.js updated for security and performance reasons, we'll make an exception here to accommodate `oolib`.**
+
+**Here are some resources for managing Node.js versions if you'd like to install new version or keep both versions installed:**
+
+* [https://www.freecodecamp.org/news/nvm-for-windows-how-to-download-and-install-node-version-manager-in-windows-10/](https://www.freecodecamp.org/news/nvm-for-windows-how-to-download-and-install-node-version-manager-in-windows-10/)
+
+
+
+**Installing Node.js Packages (Optional):**
 
 - Navigate to the client directory in the project using ```cd client```.
 - Install React.js dependencies using the command:
 
-  - required modules with specific version ranges: **react@17 react-dom@17 oolib@2** 
+- required modules with specific version ranges: **react@17 react-dom@17 oolib@2** 
 
      ```npm install```
+
+If you encounter issues during setup and need to install required packages forcefully (**not recommended unless necessary**), you can use the following command:
+
+ ```npm install --force```
+
 
  - start the React application using:
 
